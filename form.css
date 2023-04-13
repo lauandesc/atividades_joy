@@ -6,10 +6,16 @@
 
 header{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
+    background-color: aqua;
      
 }
+
+header h1{
+    margin-right: 18%;
+}
+
 
 header img{
     width: 30%;
@@ -24,15 +30,18 @@ form{
     justify-content: space-around;
     align-items: flex-end;
     margin-right: 20%;
+    
     }
 
     div form{
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     flex-direction: row-reverse;
     align-items: center;
     padding: 2%;
+    background-color: blueviolet;
 
     }
+
 
     
