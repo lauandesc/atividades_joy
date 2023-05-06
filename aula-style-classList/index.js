@@ -19,3 +19,4 @@ let errtexto = document.getElementsByClassName('error-text')
 errtexto[1].classList.add("visible")
 
 
+
