@@ -1,0 +1,74 @@
+body{
+    background-color: antiquewhite;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    margin: 1em;
+    padding: 1em;
+}
+
+header #logo-container{
+    border: 2px solid palevioletred;
+    width: 150px;
+    height: 150px;
+
+    border-radius: 100px;
+
+    display: flex;
+    align-items: center;
+
+    background-color:whitesmoke;
+
+}
+
+header #logo{
+    font-size: 50px;
+    font-weight: bolder;
+    color: blueviolet;
+}
+header #logo span{
+    color: orange;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bolder;
+    color: purple;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav ul li a:hover{
+    color: orange;
+    border: 1px dotted black;
+}
+
+main h1{
+    font-size: 50px;
+    text-align: center;
+
+    color: orange;
+}
+
+main #container-principal{
+    width: 100%;
+    margin: 1em;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    row-gap: 20px
+}
+main #container-principal .card{
+    width: 300px;
+   
+}
+#container-principal .card img{
+    width: 200px;
+    height: auto;
+}
