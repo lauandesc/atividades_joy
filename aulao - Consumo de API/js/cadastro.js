@@ -31,6 +31,9 @@ console.log(body)
 
 // EVENTOS
 nomeInput.addEventListener('change', onChange)
+apelidoInput.addEventListener('change', onChange)
+emailInput.addEventListener('change', onChange)
+senhaInput.addEventListener('change', onChange)
 
 enviarButton.addEventListener('click', (e)=>{
     e.preventDefault()
