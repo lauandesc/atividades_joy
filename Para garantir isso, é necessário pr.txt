@@ -1,0 +1,11 @@
+Para garantir isso, é necessário prestar atenção às evoluções dos sistemas de segurança, como:
+
+realizar backups de dados periódicos;
+
+implementar a criptografia no banco;
+
+ter políticas de senhas fortes.
+
+ 
+
+Dessa forma, evitamos que pessoas indevidas possam acessar informações importantes e confidenciais do banco de dados.
