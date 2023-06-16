@@ -1,0 +1,14 @@
+CREATE OR REPLACE FUNCTION somar_clientes_cadastrados(data_consulta DATE)
+RETURNS INTEGER AS $$
+DECLARE
+    total_clientes INTEGER;
+BEGIN
+    SELECT COUNT(*) INTO total_clientes
+    FROM clientes
+    WHERE data_cadastro >= data_consulta
+    AND data_cadastro < (data_consulta + INTERVAL '1 day');
+
+    RETURN total_clientes;
+END;
+$$
+LANGUAGE plpgsql;
