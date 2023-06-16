@@ -1,0 +1,10 @@
+CREATE PROCEDURE ContarProdutosCompradosPorDia
+AS
+BEGIN
+    SELECT DataCompra, COUNT(*) AS Quantidade
+    FROM TabelaCompras
+    GROUP BY DataCompra;
+END;
+
+
+EXEC ContarProdutosCompradosPorDia;
