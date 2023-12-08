@@ -1,0 +1,23 @@
+[{"id":"1",
+"nome": "monitor",
+"marca":"AOC",
+"categoria":"varejo",
+"preço":500,
+"quantidade":50,
+"disponívelentrega": true},
+
+{"id":"2",
+"nome": "tv",
+"marca":"AOC",
+"categoria":"varejo",
+"preço":1200,
+"quantidade":100,
+"disponívelentrega": true},
+
+{"id":"3",
+"nome": "mouse",
+"marca":"3g",
+"categoria":"varejo",
+"preço":150,
+"quantidade":1000,
+"disponívelentrega": true}]
